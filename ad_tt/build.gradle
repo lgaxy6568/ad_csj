@@ -39,7 +39,7 @@ repositories{
 
 dependencies {
     api fileTree(dir: 'libs', include: ['*.jar'])
-    api (name: 'open_ad_sdk', ext: 'aar')
+    compileOnly (name: 'open_ad_sdk', ext: 'aar')
     implementation 'androidx.annotation:annotation:1.1.0'
     implementation 'com.github.lgaxy6568:adsdk:1.0.2'
 }
